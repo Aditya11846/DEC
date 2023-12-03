@@ -1,0 +1,9 @@
+import pandas as pd
+
+# Load the CSV file into a data frame
+data_frame = pd.read_csv('path_to_your_csv_file.csv')
+
+# Calculate the mean, median, and standard deviation of a column named 'column_name'
+mean_value = data_frame['column_name'].mean()
+median_value = data_frame['column_name'].median()
+std_deviation = data_frame['column_name'].std()
